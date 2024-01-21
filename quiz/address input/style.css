@@ -1,0 +1,21 @@
+div{
+    text-align: center;
+}
+h1{
+    text-align: center;
+}
+.submit{
+    color: rgb(236, 22, 22);
+    background-color: blue;
+}
+label{
+    color: brown;
+    font-size: large;
+}
+.photo
+{
+    background-image: url(beautiful-house-29.jpg);
+    height: 100vh;
+    background-position:center ;
+    background-size: cover;
+}

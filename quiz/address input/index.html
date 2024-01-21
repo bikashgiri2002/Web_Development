@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css" />
+    <title>input your address</title>
+  </head>
+  <div class="photo">
+  <body>
+    <h1>post your address</h1>
+    <form action="post">
+      <div>
+        <label for="name">your name :</label>
+        <input
+          type="text"
+          id="name"
+          name="name"
+          placeholder="Enter full number"
+        />
+      </div>
+      <div>
+        <input type="radio" id="male" value="male" name="gender" />
+        <label for="male">Male</label>
+        <input type="radio" id="female" value="female" name="gender" />
+        <label for="female">Female</label>
+      </div>
+      <pre></pre>
+      <div>
+        <label for="city">City : </label>
+        <input
+          type="text"
+          id="city"
+          name="city"
+          placeholder="Enter your city"
+        />
+      </div>
+      <pre></pre>
+      <div>
+        <label for="pin">Pin : </label>
+        <input type="number" id="pin" name="pin" placeholder="pin" />
+      </div>
+      <pre></pre>
+      <div>
+        <label for="code">mobile number</label>
+        <select name="country" id="code">
+          <option value="+91">India</option>
+          <option value="+1">America</option>
+          <option value="+92">Pakistan</option>
+          <option value="+9">Pakistan</option>
+          <option value="+81">japan</option>
+        </select>
+        <input type="number" name="phone" placeholder="number" />
+      </div>
+      <pre></pre>
+      <div>
+        <input class="submit" type="submit" />
+      </div>
+    </form>
+  </body>
+  </div>
+</html>
