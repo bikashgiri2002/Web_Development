@@ -1,0 +1,31 @@
+th {
+  border: 2px solid red;
+}
+td {
+  border: 2px solid black;
+  color: 2px solid rgb(224, 16, 16);
+}
+p {
+  color: rgb(243, 93, 13);
+}
+tfoot {
+  color: rgb(11, 11, 10);
+}
+dt {
+  background-color: blue;
+  color: rgb(225, 154, 154);
+}
+/* .img {
+  background-image: url(book.jpg);
+  height: 700vh;
+  width: 100vw;
+  background-position: center;
+  background-size: cover;
+} */
+.resister {
+  text-align: center;
+}
+.Activitys {
+  text-align: center;
+  color: blue;
+}
