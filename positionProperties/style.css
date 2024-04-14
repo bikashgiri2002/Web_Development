@@ -1,0 +1,31 @@
+img{
+    width: 20vw;
+    margin: 10px;
+}
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+.container{
+    border: solid black 2px;
+    margin: 10px;
+    background-color: red;
+    height: 8000px;
+}
+.img2{
+    position: relative;
+    top: 100px;
+}
+.img3{
+    position: absolute;
+    top:100px;
+}
+.img5{
+    position: fixed;
+}
+.img4{
+    position:sticky;
+    top: 10px;
+    background-color: aqua;
+}

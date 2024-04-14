@@ -1,0 +1,31 @@
+.image
+{
+    height: 100px;
+    width: 20vw;
+    float: left;
+}
+.image2
+{
+    height: 100px;
+    width: 20vw;
+    float: right;
+}
+.image3
+{
+    height: 100px;
+    width: 20vw;
+    float: right;
+}
+.image4
+{
+    height: 100px;
+    width: 20vw;
+    float: right;
+    clear: right;
+}
+.box{
+    height: 500px;
+    width: 500px;
+    border: solid black 1px;
+    overflow:scroll;
+}

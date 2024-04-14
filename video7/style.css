@@ -1,6 +1,4 @@
-p{
-    background-color: aqua;
-}
-a{
-    background-color: rgb(212, 106, 13);
+.nev{
+    display: inline;
+    position: flex;
 }

@@ -1,0 +1,19 @@
+div{
+    box-sizing: border-box;
+    border: 1px solid black;
+    width: 50vw;
+    height: 50vh;
+    padding: 10px;
+    display: flex;
+    display: grid;
+    /* text-align: center; */
+    justify-content: space-evenly;
+}
+p{
+    box-sizing: border-box;
+    border: 1px solid red;
+    background-color: blue;
+}
+div>p:nth-child(1){
+    background-color: aqua;
+}

@@ -1,0 +1,28 @@
+body{
+    margin: 0;
+}
+.box{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin:100px auto;
+    height: 200px;
+    width: 200px;
+    background-color: blue;
+}
+.child{
+    margin: auto ;
+    box-sizing: border-box;
+    border: 1px solid black;
+    height: 100px;
+    width: 100px;
+    background-color: aqua;
+}
+.min{
+    box-sizing: border-box;
+    border: 1px solid black;
+    margin:  auto;
+    height: 500px;
+    width: 100vmin;
+    background-color: blue;
+    
+}
