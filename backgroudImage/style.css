@@ -1,7 +1,16 @@
-
+body{
+    background-image: url(peakpx.jpg);
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
 div{
     box-sizing: border-box;
     width: 90vw;
     height: 100vh;
     border: 2px solid black;
+    margin: 10px;
+}
+*{
+    box-sizing: border-box;
 }

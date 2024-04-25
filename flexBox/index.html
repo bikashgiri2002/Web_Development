@@ -8,8 +8,17 @@
         .container{
             box-sizing: border-box;
             border: 5px solid black;
-            height: 700px;
-            width: 95vw;
+            background-color: antiquewhite;
+            display: flex;
+            height: 100vh;
+            /* by default row */
+            /*flex-wrap: wrap;wrap till have space*/
+            justify-content: space-between;
+            justify-content: space-around;
+            justify-content: space-evenly;
+            justify-content: center;
+            /*it act on cross axis8*/
+            align-items: center;
         }
         .box{
             border: 2px solid red;
@@ -20,15 +29,19 @@
         }
         #box1{
             background-color: aqua;
+            flex-grow: 1;
         }
         #box2{
             background-color: blue;
+            flex-grow: 1;
         }
         #box3{
             background-color: green;
+            flex-grow: 1;
         }
         #box4{
             background-color: blueviolet;
+            flex-grow: 1;
         }
     </style>
 </head>
