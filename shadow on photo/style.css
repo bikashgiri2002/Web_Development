@@ -1,0 +1,25 @@
+*{
+    box-sizing: border-box;
+}
+img{
+    height: 300px;
+    width: 200px;
+}
+.container{
+    box-sizing: border-box;
+    border: 5px solid black;
+    display: flex;
+    justify-content: center;
+}
+.box{
+    box-sizing: border-box;
+    border: 2px solid black;
+    margin: 20px;
+    padding: 0;
+    height: 400px;
+    width: 400px;
+    background-color: aquamarine;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
