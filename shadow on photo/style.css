@@ -4,6 +4,8 @@
 img{
     height: 300px;
     width: 200px;
+    box-shadow: 10px 15px 10px  red;
+    filter: drop-shadow(10px 15px 5px black);
 }
 .container{
     box-sizing: border-box;
