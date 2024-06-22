@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Log in page</title>
+    <script>
+        var id;
+        var password;
+        function clickButton(){
+            id = document.getElementById("emailid").value;
+            password = document.getElementById("password").value;
+            if(id == "abcd" && password == "1234"){
+                alert("login sucessFull");
+            }
+            else{
+                alert("Wrong Id or password");
+            }
+        }
+    </script>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .login{
+            text-align: center;
+            border: 2px solid black;
+            padding: 20px;
+            border-radius: 8px;
+            height: 300px;
+            background-image: url(R.jpeg);
+        }
+        input[type="button"]{
+            margin-top: 50px;
+            width: 60px;
+            height: 30px;
+            text-decoration: black;
+            background:rgb(141, 141, 235);
+            border-radius: 10px;
+        }
+        input[type="text"]{
+            margin: 30px;
+            height: 30px;
+            border-radius: 10px;
+            background-image: url(bg.png);
+        }
+    </style>
+</head>
+<body>
+    <div class="login">
+        <label for="emailid">Email id :</label>
+        <input type="text" id="emailid">
+        <br>
+        <label for="password">Password</label>
+        <input type="text" id="password">
+        <br>
+        <input type="button" value="login" onclick="clickButton()">
+    </div>
+</body>
+</html>
