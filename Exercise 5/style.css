@@ -1,0 +1,110 @@
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+:root {
+  --colorPrimary: rgb(107, 13, 238);
+  --colorOnPrimary: white;
+  --colorSecondary: rgb(73, 81, 85);
+  --colorOnSecondary: rgb(231, 219, 219);
+}
+body {
+  position: absolute;
+}
+.navbar {
+  box-sizing: border-box;
+  width: 100vw;
+  height: 50px;
+  background-color: var(--colorPrimary);
+  position: sticky;
+  top: 0px;
+  display: flex;
+  align-items: center;
+}
+main {
+  box-sizing: border-box;
+  display: flex;
+  flex-wrap: wrap;
+  width: 100vw;
+}
+article {
+  box-sizing: border-box;
+  background-color: rgb(139, 240, 136);
+  border: 2px solid black;
+  width: 50vw;
+  height: 100vh;
+}
+footer {
+  height: 100px;
+  width: 100vw;
+  background-color: var(--colorSecondary);
+  text-align: center;
+  padding: 20px;
+}
+.textBox {
+  color: var(--colorOnSecondary);
+}
+.menu {
+  padding: 2px;
+  height: 70%;
+  width: 2%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  margin-left: 5px;
+}
+.menuItem {
+  margin: 2px auto;
+  background-color: var(--colorOnPrimary);
+  width: 100%;
+  height: 5px;
+}
+.menu:hover {
+  background-color: var(--colorOnPrimary);
+  .menuItem {
+    background-color: var(--colorPrimary);
+  }
+}
+.menuList {
+  width: 95%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+  color: var(--colorOnPrimary);
+  list-style-type: none;
+}
+@media (max-width: 500px) {
+  main {
+    flex-direction: column;
+    flex-wrap: nowrap;
+  }
+  article {
+    width: 100vw;
+  }
+  .menu {
+    width: 5%;
+  }
+}
+li > a {
+  color: var(--colorOnPrimary);
+}
+li:hover {
+  background-color: var(--colorOnPrimary);
+  a {
+    color: var(--colorPrimary);
+  }
+}
+.chatIcon {
+  height: 50px;
+  width: 50px;
+  border-radius: 100%;
+  position: fixed;
+  bottom: 20px;
+  right: 20px;
+}
+.chatIcon:hover {
+  background-color: blue;
+}
