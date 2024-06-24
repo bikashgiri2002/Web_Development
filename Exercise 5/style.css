@@ -90,6 +90,7 @@ footer {
 }
 li > a {
   color: var(--colorOnPrimary);
+  text-decoration: none;
 }
 li:hover {
   background-color: var(--colorOnPrimary);
