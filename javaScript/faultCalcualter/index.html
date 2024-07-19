@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>faultyCalculater</title>
+    <script>
+        let rand = Math.random();
+        //value entry
+        let a = prompt("Enter the value of first Number");
+        let b = prompt("Enter the value of second Number");
+        let c = prompt("Enter the Oporation");
+        //give the faulty oporation
+        let faulty = {
+            "+" : "*",
+            "*" : "-",
+            "-" : "/",
+            "/" : "**",
+            "**" : "+",
+        }
+        // now check the 10% chance
+        if(rand < 0.1){
+            c = faulty[c];
+            console.log(`The result is ${eval(`${a} ${c} ${b}`)}`);
+            alert(`The result is ${eval(`${a} ${c} ${b}`)}`);
+        }
+        else{
+            console.log(`The result is ${eval(`${a} ${c} ${b}`)}`);
+            alert(`The result is ${eval(`${a} ${c} ${b}`)}`);
+        }
+    </script>
+  </head>
+  <body></body>
+</html>
