@@ -4,15 +4,52 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Business Name Builder</title>
+    <style>
+        *{
+            box-sizing: border-box;
+            margin: 0;
+            padding: 0;
+        }
+        body{
+            height: 100vh;
+            width: 100vw;
+            background-image: url(wallpaperflare.com_wallpaper\ \(2\).jpg);
+            background-size: 100% 100%;
+            background-repeat: no-repeat;
+            background-attachment: fixed;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            justify-content: center;
+            gap: 30px;
+        }
+        select{
+            height: 50px;
+            width: 300px;
+            box-sizing: border-box;
+            font-size: 24px;
+            border-radius: 10px;
+            background-color: rgb(165, 236, 236,0.5);
+        }
+        button{
+            height: 50px;
+            width: 300px;
+            font-size: 24px;
+            border-radius: 25px;
+            text-align: center;
+            background-color: rgb(121, 121, 249,0.9);
+        }
+    </style>
 </head>
 <body>
-    <h1>Let's build a name for your Business</h1>
-    <select>
-        <option value="select_name">Business Name</option>
-        <option value="">Business Name</option>
-        <option value="select_name">Business Name</option>
-        <option value="select_name">Business Name</option>
+    <h1 id="output">Let's build a name for your Business</h1>
+    <select id="business_name">
+        <option value="">Business Type Name</option>
+        <option value="Engine">Engine</option>
+        <option value="Food">Food</option>
+        <option value="Garments">Garments</option>
     </select>
-    
+    <button type="button" id="button" onclick="onClickGenerate()">GENERATE</button>
+    <script src="index.js"></script>
 </body>
 </html>
