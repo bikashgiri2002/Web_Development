@@ -19,3 +19,5 @@ let arr1 = arr.map( e => {
     return e**2;
 });
 console.log(arr1);
+//filter
+arr1.filter
