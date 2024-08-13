@@ -20,4 +20,15 @@ let arr1 = arr.map( e => {
 });
 console.log(arr1);
 //filter
-arr1.filter
+let arr2 = arr1.filter(element => element>10);
+console.log(arr2);
+// from function in arr
+let array = Array.from("Bikash");
+console.log(array);
+let number = Array.from(Array(10).keys());
+console.log(number);
+number.forEach((key)=>{
+    console.log(key);
+});
+let k = Array.from(Array(5).keys());
+console.log(k);
