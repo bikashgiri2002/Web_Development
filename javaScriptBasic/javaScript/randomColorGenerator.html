@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Random Color Generator</title>
+    <style>
+        .container{
+            height: 100vh;
+            width: 900px;
+            display: flex;
+            align-items: center;
+            justify-content: space-around;
+        }
+        .box{
+            height: 100px;
+            width: 100px;
+            border: 2px solid black;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+        <div class="box"></div>
+    </div>
+    <script>
+        let box = document.querySelector(".container").children;
+        let color = () =>{
+            let r = Math.ceil(Math.random()*244);
+            let g = Math.ceil(Math.random()*244);
+            let b = Math.ceil(Math.random()*244);
+            return `rgb(${r},${g},${b})`;
+        }
+        let textColor = () => "#" + Math.floor(Math.random() * 16777215).toString(16);
+        Array.from(box).forEach(element => {
+            element.style.background = color();
+            element.textContent = textColor();
+            element.style.color = textColor();
+        });
+        
+    </script>
+</body>
+</html>
