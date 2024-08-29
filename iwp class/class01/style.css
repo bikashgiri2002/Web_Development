@@ -1,0 +1,50 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Bhai+2:wght@400..800&display=swap');
+.nav{
+    display: inline-flex;
+}
+.page
+{
+    display: grid;
+    background-color: blueviolet;
+    height: 100vh;
+    width: 100vw;
+    place-items: center;
+}
+.log{
+    background-color: aqua;
+    height: 150px;
+    width: 300px;
+    padding: 20px;
+    text-align: center;
+    border-radius: 12%;
+}
+.login{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rebeccapurple;
+    background-color: rgb(129, 129, 240);
+    color: red;
+    border-radius: 50px;
+}
+pre{
+    font-family: "Baloo Bhai 2";
+}
+.sign{
+    background-color: aqua;
+    margin: 0px;
+    height: 100vh;
+    width: 100vw;
+    padding: 10px;
+    padding-top: 100px;
+    text-align: center;
+}
+button{
+    position: relative;
+    width: 100px;
+    height: 30px;
+    border: 1px solid rebeccapurple;
+    background-color: rgb(129, 129, 240);
+    color: red;
+    border-radius: 50px;
+}
